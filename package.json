@@ -1,0 +1,26 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "a project inspired by youtube",
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "tanishk bhardwaj",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2"
+  }
+}
